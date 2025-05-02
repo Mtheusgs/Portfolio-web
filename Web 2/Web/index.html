@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Meu site</title>
+</head>
+<body>
+    <div id="barra" class="bar-inicial">
+        <h1 id="Titulo" class="TituloSite">Portfólio</h1> 
+
+        <div class="barRight">
+
+            <div class="mode">
+                <svg id="sun" style="display: flex;" onclick="colorMode()" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="#000000" fill-rule="evenodd" d="M10 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1m4 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0m-.464 4.95l.707.707a1 1 0 0 0 1.414-1.414l-.707-.707a1 1 0 0 0-1.414 1.414m2.12-10.607a1 1 0 0 1 0 1.414l-.706.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0M17 11a1 1 0 1 0 0-2h-1a1 1 0 1 0 0 2zm-7 4a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1M5.05 6.464A1 1 0 1 0 6.465 5.05l-.708-.707a1 1 0 0 0-1.414 1.414zm1.414 8.486l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 1.414M4 11a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2z" clip-rule="evenodd"/></svg>
+                <svg id="moon" onclick="colorMode()"  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="#FFFFFF" d="M17.293 13.293A8 8 0 0 1 6.707 2.707a8.001 8.001 0 1 0 10.586 10.586"/></svg>
+            </div>
+
+            <section  class="Contatos"> 
+                <svg class="corIcons2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M11.999 1C5.926 1 1 5.925 1 12c0 4.86 3.152 8.983 7.523 10.437c.55.102.75-.238.75-.53c0-.26-.009-.952-.014-1.87c-3.06.664-3.706-1.475-3.706-1.475c-.5-1.27-1.221-1.61-1.221-1.61c-.999-.681.075-.668.075-.668c1.105.078 1.685 1.134 1.685 1.134c.981 1.68 2.575 1.195 3.202.914c.1-.71.384-1.195.698-1.47c-2.442-.278-5.01-1.222-5.01-5.437c0-1.2.428-2.183 1.132-2.952c-.114-.278-.491-1.397.108-2.91c0 0 .923-.297 3.025 1.127A10.5 10.5 0 0 1 12 6.32a10.5 10.5 0 0 1 2.754.37c2.1-1.424 3.022-1.128 3.022-1.128c.6 1.514.223 2.633.11 2.911c.705.769 1.13 1.751 1.13 2.952c0 4.226-2.572 5.156-5.022 5.428c.395.34.747 1.01.747 2.037c0 1.47-.014 2.657-.014 3.017c0 .295.199.637.756.53C19.851 20.979 23 16.859 23 12c0-6.075-4.926-11-11.001-11"/></svg>
+                <svg class="corIcons2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M22.037 22h-4.152v-6.496c0-1.55-.026-3.542-2.157-3.542c-2.16 0-2.49 1.688-2.49 3.43V22H9.09V8.64h3.98v1.827h.058c.553-1.05 1.908-2.158 3.928-2.158c4.204 0 4.98 2.766 4.98 6.364zM4.409 6.816A2.407 2.407 0 0 1 2 4.407a2.408 2.408 0 1 1 2.41 2.408M6.486 22H2.33V8.64h4.156z"/></svg>
+                <svg class="corIcons2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><g fill="none"><g clip-path="url(#grommetIconsWhatsapp0)"><path fill="currentColor" d="m.057 24l1.687-6.163a11.87 11.87 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 0 1 8.413 3.488a11.82 11.82 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592c5.448 0 9.886-4.434 9.889-9.885c.002-5.462-4.415-9.89-9.881-9.892c-5.452 0-9.887 4.434-9.89 9.884c0 2.225.652 3.891 1.747 5.634l-1 3.648zm11.387-5.464c-.074-.124-.272-.198-.57-.347s-1.758-.868-2.031-.967c-.272-.099-.47-.149-.67.149c-.197.297-.767.967-.94 1.165s-.347.223-.644.074s-1.255-.462-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.018-.458.13-.606c.134-.133.297-.347.446-.521c.15-.172.2-.296.3-.495c.099-.198.05-.372-.025-.521c-.075-.148-.67-1.611-.916-2.206c-.242-.579-.487-.501-.67-.51l-.57-.01c-.197 0-.52.074-.791.372c-.272.298-1.04 1.016-1.04 2.479s1.065 2.876 1.213 3.074s2.095 3.2 5.076 4.487c.709.306 1.263.489 1.694.626c.712.226 1.36.194 1.872.118c.57-.085 1.758-.719 2.006-1.413s.248-1.29.173-1.414"/></g><defs><clipPath id="grommetIconsWhatsapp0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></g></svg>
+            </section>
+
+        </div>
+    </div>
+
+    <main class="principal">
+
+        <nav class="nav grande" id="Nav">
+            
+            <div id="fotoP" class="foto">
+                <img src="img/perfil.jpeg" width="200px" height="200px" alt=""> 
+
+                <div class="nomeloc">
+                    <h4 class="nome">Matheus Garcia</h4>
+                    <p class="profi">Web Developer</p>
+                </div>
+                
+            </div>
+            
+            <div id="links" class="links">
+                <div class="linkFocus">
+                    <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 100 100"><path fill="currentColor" d="M37.18 0c-9.53 0-19.061 3.624-26.31 10.871c-14.495 14.495-14.495 38.122 0 52.617c13.57 13.569 35.1 14.367 49.687 2.528l3.576 3.576a3.956 5.958 45 0 0 .646 3.613l25.952 25.951a3.956 5.958 45 0 0 7.01-1.416a3.956 5.958 45 0 0 1.415-7.01l-25.95-25.95a3.956 5.958 45 0 0-3.616-.647l-3.576-3.576c11.84-14.588 11.043-36.118-2.526-49.686C56.241 3.624 46.71.001 37.18.001m0 8.217c7.397 0 14.795 2.834 20.463 8.502a28.875 28.875 0 0 1 0 40.924a28.875 28.875 0 0 1-40.924 0a28.875 28.875 0 0 1 0-40.924c5.668-5.668 13.064-8.502 20.46-8.502" color="currentColor"/><path fill="currentColor" d="M37.475 17.24c.295 0 .58.109.799.306l18.795 15.236c.817.731.298 1.146-.797 1.145h-4.854v19.26c0 .658-.534 1.192-1.193 1.192H24.728a1.193 1.193 0 0 1-1.193-1.193V33.927h-4.854c-1.095.001-1.613-.414-.797-1.145l18.795-15.236c.219-.196.502-.305.796-.305"/></svg>
+                    <a class="linksNav" >Home</a>
+                </div>
+                <div class="linkFocus">
+                    <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#fff" d="M22.75 8.5v5a.75.75 0 0 1-1.5 0v-2.469l-.023.011l-1.477.693v4.89c0 1.909-1.527 3.193-3.05 3.953c-1.564.78-3.428 1.172-4.7 1.172s-3.136-.392-4.7-1.172c-1.523-.76-3.05-2.044-3.05-3.953v-4.89l-1.477-.692C1.721 10.549 1.25 9.478 1.25 8.5s.47-2.05 1.523-2.542L9.464 2.82a5.92 5.92 0 0 1 5.072 0l6.69 3.137C22.28 6.45 22.75 7.522 22.75 8.5m-8.214 5.68a5.92 5.92 0 0 1-5.072 0L5.75 12.437v4.187c0 1.01.82 1.913 2.22 2.61c1.36.679 2.996 1.015 4.03 1.015s2.67-.336 4.03-1.014c1.4-.698 2.22-1.601 2.22-2.61v-4.188z"/></svg>
+                    <a class="linksNav" >Certificados</a>
+                </div>
+                <div class="linkFocus">
+                    <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path fill="#fff" d="M1.77 19.462v-1h20.46v1zm2.846-2q-.691 0-1.153-.463T3 15.846V6.077q0-.69.463-1.153t1.152-.462h14.77q.69 0 1.152.462T21 6.077v9.77q0 .69-.463 1.152t-1.153.463zm0-1h14.769q.23 0 .423-.193t.192-.423V6.077q0-.23-.192-.423q-.193-.193-.424-.193H4.616q-.231 0-.424.193Q4 5.846 4 6.077v9.77q0 .23.192.422t.423.193m-.615 0v-11z"/></svg>
+                    <a class="linksNav" >Habilidades</a> 
+                </div>
+                <div class="linkFocus">
+                    <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="#fff" d="M28.916 8.01L15.953 1.887a.92.92 0 0 0-1.288.638c-.003.01-1.04 4.83-2.58 9.635c-.525 1.647-1.113 3.275-1.727 4.705l1.665.786c2-4.642 3.584-11.05 4.18-13.613L27.47 9.353c-.346 1.513-1.233 5.223-2.42 8.927c-.767 2.4-1.665 4.797-2.585 6.532c-.89 1.79-1.958 2.67-2.197 2.552c-1.42.03-2.418-1.262-3.09-2.918a13.7 13.7 0 0 1-.657-2.246c-.128-.618-.167-1.006-.17-1.006a.9.9 0 0 0-.52-.73l-12.96-6.12a.92.92 0 0 0-.926.08a.92.92 0 0 0-.38.847c.008.046.195 1.85.947 3.737c.522 1.32 1.407 2.818 2.846 3.575l12.956 6.13l.006-.012c.562.295 1.2.487 1.947.496c1.797-.117 2.777-1.668 3.818-3.525c3-5.69 5.32-16.6 5.338-16.64a.91.91 0 0 0-.504-1.02z"/></svg>
+                    <a class="linksNav" >Currículo</a>
+                </div>
+                <div class="linkFocus">
+                    <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="#fff" d="M28.516 7.167H3.482L16 14.275zM16.74 17.303a1.5 1.5 0 0 1-1.48 0L2.5 10.06v14.773h27V10.06z"/></svg>
+                    <a class="linksNav" >Enviar E-mail</a>
+                </div>
+                
+                
+
+                <svg class="voltar corIcons" onclick="toggleNav()" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="#fff" d="M8.982 7.107L.322 15.77l8.66 8.662l3.15-3.15l-5.51-5.512l5.51-5.51zm12.675 0l-3.148 3.15l5.51 5.512l-5.51 5.51l3.147 3.15l8.662-8.662l-8.663-8.66z"/></svg>
+                
+            </div> 
+            <div id="links2" class="links2 esconder">
+                <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 100 100"><path fill="currentColor" d="M37.18 0c-9.53 0-19.061 3.624-26.31 10.871c-14.495 14.495-14.495 38.122 0 52.617c13.57 13.569 35.1 14.367 49.687 2.528l3.576 3.576a3.956 5.958 45 0 0 .646 3.613l25.952 25.951a3.956 5.958 45 0 0 7.01-1.416a3.956 5.958 45 0 0 1.415-7.01l-25.95-25.95a3.956 5.958 45 0 0-3.616-.647l-3.576-3.576c11.84-14.588 11.043-36.118-2.526-49.686C56.241 3.624 46.71.001 37.18.001m0 8.217c7.397 0 14.795 2.834 20.463 8.502a28.875 28.875 0 0 1 0 40.924a28.875 28.875 0 0 1-40.924 0a28.875 28.875 0 0 1 0-40.924c5.668-5.668 13.064-8.502 20.46-8.502" color="currentColor"/><path fill="currentColor" d="M37.475 17.24c.295 0 .58.109.799.306l18.795 15.236c.817.731.298 1.146-.797 1.145h-4.854v19.26c0 .658-.534 1.192-1.193 1.192H24.728a1.193 1.193 0 0 1-1.193-1.193V33.927h-4.854c-1.095.001-1.613-.414-.797-1.145l18.795-15.236c.219-.196.502-.305.796-.305"/></svg>
+                <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#fff" d="M22.75 8.5v5a.75.75 0 0 1-1.5 0v-2.469l-.023.011l-1.477.693v4.89c0 1.909-1.527 3.193-3.05 3.953c-1.564.78-3.428 1.172-4.7 1.172s-3.136-.392-4.7-1.172c-1.523-.76-3.05-2.044-3.05-3.953v-4.89l-1.477-.692C1.721 10.549 1.25 9.478 1.25 8.5s.47-2.05 1.523-2.542L9.464 2.82a5.92 5.92 0 0 1 5.072 0l6.69 3.137C22.28 6.45 22.75 7.522 22.75 8.5m-8.214 5.68a5.92 5.92 0 0 1-5.072 0L5.75 12.437v4.187c0 1.01.82 1.913 2.22 2.61c1.36.679 2.996 1.015 4.03 1.015s2.67-.336 4.03-1.014c1.4-.698 2.22-1.601 2.22-2.61v-4.188z"/></svg>
+                <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#fff" d="M1.77 19.462v-1h20.46v1zm2.846-2q-.691 0-1.153-.463T3 15.846V6.077q0-.69.463-1.153t1.152-.462h14.77q.69 0 1.152.462T21 6.077v9.77q0 .69-.463 1.152t-1.153.463zm0-1h14.769q.23 0 .423-.193t.192-.423V6.077q0-.23-.192-.423q-.193-.193-.424-.193H4.616q-.231 0-.424.193Q4 5.846 4 6.077v9.77q0 .23.192.422t.423.193m-.615 0v-11z"/></svg>
+                <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 32 32"><path fill="#fff" d="M28.916 8.01L15.953 1.887a.92.92 0 0 0-1.288.638c-.003.01-1.04 4.83-2.58 9.635c-.525 1.647-1.113 3.275-1.727 4.705l1.665.786c2-4.642 3.584-11.05 4.18-13.613L27.47 9.353c-.346 1.513-1.233 5.223-2.42 8.927c-.767 2.4-1.665 4.797-2.585 6.532c-.89 1.79-1.958 2.67-2.197 2.552c-1.42.03-2.418-1.262-3.09-2.918a13.7 13.7 0 0 1-.657-2.246c-.128-.618-.167-1.006-.17-1.006a.9.9 0 0 0-.52-.73l-12.96-6.12a.92.92 0 0 0-.926.08a.92.92 0 0 0-.38.847c.008.046.195 1.85.947 3.737c.522 1.32 1.407 2.818 2.846 3.575l12.956 6.13l.006-.012c.562.295 1.2.487 1.947.496c1.797-.117 2.777-1.668 3.818-3.525c3-5.69 5.32-16.6 5.338-16.64a.91.91 0 0 0-.504-1.02z"/></svg>
+                <svg class="corIcons" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 32 32"><path fill="#fff" d="M28.516 7.167H3.482L16 14.275zM16.74 17.303a1.5 1.5 0 0 1-1.48 0L2.5 10.06v14.773h27V10.06z"/></svg>
+                <svg class="corIcons" onclick="toggleNav()" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 32 32"><path fill="#fff" d="M8.982 7.107L.322 15.77l8.66 8.662l3.15-3.15l-5.51-5.512l5.51-5.51zm12.675 0l-3.148 3.15l5.51 5.512l-5.51 5.51l3.147 3.15l8.662-8.662l-8.663-8.66z"/></svg>
+            </div>
+            
+
+            
+        </nav>
+        <!--Principal com displays hidden java Script -->
+        <div  id="ContP" class="content menor">
+            <h1 class="titleCont">Sobre mim</h1>
+            <h2>MATHEUS GARCIA SAMPAIO</h2>
+            <h3>Acadêmico de Ciências da Computação</h3>
+            <p>Meu nome é Matheus, tenho 23 anos e estou no 4o semestre do curso de Ciências da Computação Busco aprender e trabalhar na área da computação, de modo a expandir meu conhecimento prático e teórico. Minhas áreas de interesse são desenvolvimento web e computação gráfica.</p>
+        </div>
+    </main>
+    
+</body>
+<script>
+    function toggleNav(){
+        
+        const nav = document.getElementById('Nav');
+        nav.classList.toggle('pequena');
+        nav.classList.toggle('grande')
+
+        const principal =document.getElementById('ContP')
+        principal.classList.toggle("menor")
+        principal.classList.toggle("maior")
+
+
+        const icons =document.getElementById('links2');
+        icons.classList.toggle('esconder')
+        icons.classList.toggle('aparecer')
+
+        const foto = document.getElementById('fotoP')
+        const links = document.getElementById('links')
+
+
+        if (nav.classList.contains('pequena')){
+            foto.style.display= 'none';
+            links.style.display='none';
+            
+            
+        }else{
+                foto.style.display="flex";
+                links.style.display='flex';
+                
+                
+            }
+        
+    }
+    function colorMode(){
+        const sun = document.getElementById('sun')
+        const moon = document.getElementById('moon') 
+        
+        if (sun.style.display =='flex'){
+            sun.style.display='none';
+            moon.style.display='flex'
+        }else{
+            moon.style.display='none'
+            sun.style.display='flex'
+        }
+
+        if (document.body.classList.contains('dark')){
+            document.body.classList.remove('dark')
+        }else{  
+            document.body.classList.add('dark')
+        }
+
+
+    }
+</script>
+</html>
+
+<!--000000 = fonte,14213d= ?,fca311 = marca ,e5e5e5 = Fundo,ffffff = div-->
